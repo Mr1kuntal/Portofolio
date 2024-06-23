@@ -21,7 +21,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Piyush Aggarwal </strong>
+                <strong className="main-name"> Rupesh Singh Kuntal </strong>
               </h1>
 
               <div style={{ padding: "20px 0px", textAlign: "left" }}>
@@ -29,19 +29,19 @@ function Home() {
               </div>
               <h5 style={{ padding: "20px 0px", textAlign: "left" }}>
                 Gmail : 
-                <strong className="main-name">  piyush.aggarwal.040501@gmail.com</strong>
+                <strong className="main-name">  rupesh11102000singh@gmail.com</strong>
               </h5>
-              <a href="https://drive.google.com/file/d/11CIuRFX49eoxt3Ewr2-cd7dv88IiJ_KU/view?usp=sharing" target="_blank" className="btn-resume">
+              <a href="https://drive.google.com/file/d/1RKwEpZOaYhSPBrONOKDbfzM90VDIciTb/view?usp=drive_link" target="_blank" className="btn-resume">
                 Resume
               </a>
             </Col>
 
             <Col md={5} style={{ padding: 20 }}>
               <img id="piyush-image"
-                src="/piyush.jpg"
+                src="/rupesh.png"
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "500px" }}
               />
             </Col>
           </Row>

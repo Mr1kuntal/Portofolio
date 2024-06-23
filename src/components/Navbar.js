@@ -41,7 +41,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div id="logo">PIYSUH AGGARWAL</div>
+          <div id="logo">Rupesh Singh Kuntal</div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
