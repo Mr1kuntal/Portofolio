@@ -1,11 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiVercel,
-  SiNetlify 
-} from "react-icons/si";
+import {SiVisualstudiocode,SiPostman} from "react-icons/si";
 
 import { FaGitAlt,FaGithub  } from "react-icons/fa";
 
@@ -15,7 +10,7 @@ function Toolstack() {
     {icon:<SiPostman />,name:"Postman"},
     {icon:<FaGitAlt />,name:"Git"},
     {icon:<FaGithub />,name:"Github"},
-    {icon:<SiNetlify />,name:"Netlify"},
+    
   ];
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

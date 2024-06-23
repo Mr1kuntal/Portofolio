@@ -1,15 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
-} from "react-icons/di";
+import {DiJavascript1,DiReact,DiNodejs,DiMongodb} from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
-import { FaHtml5,FaCss3Alt,FaBootstrap   } from "react-icons/fa";
+import { FaBootstrap   } from "react-icons/fa";
+import { SiExpress,SiJest,SiTailwindcss,SiRedux,SiFirebase } from "react-icons/si";
+
 
 function Techstack() {
   const techArray = [
@@ -19,9 +15,12 @@ function Techstack() {
     {icon:<DiNodejs />,name:"Node.Js"},
     {icon:<DiMongodb />,name:"Mongo DB"},
     {icon:<GrMysql />,name:"MySql"},
-    {icon:<FaHtml5 />,name:"HTML"},
-    {icon:<FaCss3Alt  />,name:"CSS"},
     {icon:<FaBootstrap  />,name:"Bootstrap"},
+    {icon:<SiExpress />,name:"Express"},
+    {icon:<SiJest />,name:"Jest"},
+    {icon:<SiTailwindcss />,name:"Tailwind CSS"},
+    {icon:<SiRedux />,name:"Redux Toolkit"},
+    {icon:<SiFirebase />,name:"Google Firebase"},
   ];
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

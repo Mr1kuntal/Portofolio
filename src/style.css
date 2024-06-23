@@ -36,7 +36,7 @@ html {
 .btn-resume{
     height: 50px;
     width: 100px;
-    background: var(--solidColor4);
+    background: #f5984e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +45,7 @@ html {
     color: var(--solidColor);
     cursor: pointer!important;
     text-decoration: none;
+    border-radius: 10px;
 }
 .btn-resume:hover{
     text-decoration: none;
